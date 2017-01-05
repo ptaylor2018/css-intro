@@ -1,12 +1,23 @@
 h1 {
     font-family: sans-serif;
     color: darkgreen;
-    font-size: 54px;
+    font-size: 45px;
 }
+
 p {
     color: blue;
     font-family: fantasy;
 }
-h2{
+
+h2 {
     border-style: dotted;
+}
+
+#boxy {
+    height: 100px;
+    width: 600px;
+    background-color: aquamarine;
+    border: 3px solid black;
+    margin: 50px;
+    padding: 10px;
 }
