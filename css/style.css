@@ -1,0 +1,12 @@
+h1 {
+    font-family: sans-serif;
+    color: darkgreen;
+    font-size: 54px;
+}
+p {
+    color: blue;
+    font-family: fantasy;
+}
+h2{
+    border-style: dotted;
+}
