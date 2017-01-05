@@ -20,4 +20,17 @@ h2 {
     border: 3px solid black;
     margin: 50px;
     padding: 10px;
+    text-align: center;
+    position: center;
+}
+
+#flowy{
+    overflow: scroll;
+    margin: 50px;
+    height: 300px;
+
+}
+#hidey{
+    height: 300px;
+    overflow: hidden;
 }
