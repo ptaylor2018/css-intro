@@ -1,8 +1,16 @@
+/*intended for h1's only*/
+@font-face {
+    font-family: 'caslonblack';
+    src: url('/css/caslon-black-webfont.woff2') format('woff2'),
+         url('/css/caslon-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 
+}
 h1 {
-    font-family: sans-serif;
+    font-family: 'caslonblack','arial';
     color: darkgreen;
-    font-size: 45px;
+    font-size: 200%;
 
 }
 
