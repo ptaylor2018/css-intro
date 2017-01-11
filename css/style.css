@@ -1,17 +1,16 @@
 /*intended for h1's only*/
+
 @font-face {
     font-family: 'caslonblack';
-    src: url('/css/caslon-black-webfont.woff2') format('woff2'),
-         url('/css/caslon-black-webfont.woff') format('woff');
+    src: url('/css/caslon-black-webfont.woff2') format('woff2'), url('/css/caslon-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+
 h1 {
-    font-family: 'caslonblack','arial';
+    font-family: 'caslonblack', 'arial';
     color: darkgreen;
     font-size: 200%;
-
 }
 
 p {
@@ -34,13 +33,22 @@ h2 {
     position: center;
 }
 
-#flowy{
+#flowy {
     overflow: scroll;
     margin: 50px;
     height: 300px;
-
 }
-#hidey{
+
+#hidey {
     height: 300px;
     overflow: hidden;
+}
+
+#page {
+    margin: auto;
+    border-radius: 100px;
+    background-color: burlywood;
+}
+#page {
+
 }
