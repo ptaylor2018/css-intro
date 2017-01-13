@@ -6,7 +6,7 @@
     font-weight: normal;
     font-style: normal;
 }
-
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 h1 {
     font-family: 'caslonblack', 'arial';
     color: darkgreen;
@@ -14,8 +14,9 @@ h1 {
 }
 
 p {
-    color: blue;
-    font-family: fantasy;
+    color: black;
+    font-family: 'Open Sans Condensed', 'caslonblack';
+    font-size: 20px;
 }
 
 h2 {
@@ -35,13 +36,14 @@ h2 {
 
 #flowy {
     overflow: scroll;
-    margin: 50px;
+    margin: 20px;
     height: 300px;
 }
 
 #hidey {
     height: 300px;
     overflow: hidden;
+
 }
 
 #page {
@@ -49,5 +51,28 @@ h2 {
     border-radius: 100px;
     background-color: burlywood;
     padding: 10%;
-    width: 1000px;
+    width: 70%;
+}
+
+.box {
+    height: 10vh;
+    width: 31%;
+    text-align: center;
+    display: inline-block;
+    border: solid;
+}
+#box1{
+    background-color: #6281ca;
+    border-color: white;
+
+}
+#box2{
+    background-color: hsla(0, 0%, 0%, 1);
+}
+#box3{
+    background-color: rgba(0,0,225,.5);
+}
+#text{
+    color: rgb(255,255,255);
+
 }
